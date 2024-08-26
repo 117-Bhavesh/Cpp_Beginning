@@ -7,7 +7,12 @@ int main() {
     int year = 2024;
     int days = 7.7;
     
-    std::cout << days;
+    //double (number including decimal)
+    double price = 10.99;
+    double gpa = 2.5;
+    double temperature = 25.1;
+
+    std::cout << price;
 
 
 }
