@@ -12,7 +12,12 @@ int main() {
     double gpa = 2.5;
     double temperature = 25.1;
 
-    std::cout << price;
+    //single character
+    char grade = 'A';
+    char initial = 'B';
 
+    std::cout << initial;
+    
+    return 0;
 
 }
