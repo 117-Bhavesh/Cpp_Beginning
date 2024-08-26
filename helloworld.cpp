@@ -1,7 +1,17 @@
 #include <iostream>
 
 int main(){
-    std::cout << "i like one piece!" << std::endl;
-    std::cout << "it's really good!" << std::endl;
+
+    //this is a single line comment
+    /*
+    this 
+    is 
+    a 
+    multi-line
+    comment
+    */
+
+    std::cout << "i like one piece!" << '\n';
+    std::cout << "the one piece is real!" << '\n';
     return 0;
 }
