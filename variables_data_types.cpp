@@ -22,14 +22,16 @@ int main() {
     bool forsale = true;
 
     //string (objects that represnt a sequence of text)
-    std::string name = "bro";
+    std::string name = "ness";
     std::string day = "Friday";
     std::string food = "pizza";
+    std::string address = "123 Fake St.";
+
+    //string literal where we literally print a string, keep in mind for the spaces though
+    //followed by a variable here
+    std::cout << "Hello " << name << '\n';
+    std::cout << "You are " << age << " years old";
     
 
-
-    std::cout << power;
-
     return 0;
-
 }
