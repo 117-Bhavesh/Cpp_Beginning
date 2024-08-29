@@ -11,9 +11,9 @@ int main() {
     const int  WIDTH = 1920;
     const int HEIGHT = 1080;
 
-    std::cout << circumference << " cm" << "\n";
-    std::cout << WIDTH << "x" << HEIGHT << " pixels";
-
+    std::cout << circumference << " cm" << '\n';
+    std::cout << WIDTH << "x" << HEIGHT << " pixels" << '\n';
+    std::cout << "moving at " << LIGHT_SPEED << " m/sec";
 
     return 0;
 }
