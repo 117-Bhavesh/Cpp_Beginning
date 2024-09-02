@@ -14,8 +14,9 @@ int main() {
     */
 
    int x = 0;
-
-   std::cout << x;
+    // the version of x in the first namespace, take that entity (first) and precede it before x.
+   std::cout << first::x;
+   //the two colons :: is known as "scope resolution operator"
 
     return 0;
 }
