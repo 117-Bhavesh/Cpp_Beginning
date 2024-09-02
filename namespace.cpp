@@ -14,9 +14,9 @@ int main() {
     */
 
    int x = 0;
-    // the version of x in the first namespace, take that entity (first) and precede it before x.
-   std::cout << first::x;
-   //the two colons :: is known as "scope resolution operator"
+    // the version of x in the second namespace, take that entity (second) and precede it before x.
+   std::cout << second::x;
+   //just outputing the value of x is known as local version
 
     return 0;
 }
