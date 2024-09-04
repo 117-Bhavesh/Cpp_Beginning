@@ -1,16 +1,17 @@
 #include <iostream>
 
-namespace first {
-    int x = 1;
-}
-namespace second {
-    int x = 2;
-}
+
 
 int main() {
-    //if we are implying an entity then we don't need to prefix it to output it.
-    using namespace second;
-   std::cout << x;
+    //if we are using namespace std we don't need to use the prefix std:: everywhere
+   //however the std namespace has hundreds of entities, so big chance of conflict
+
+
+   using namespace std;
+
+   string name = "bro";
+
+   cout << "hello " << name;
 
     return 0;
 }
