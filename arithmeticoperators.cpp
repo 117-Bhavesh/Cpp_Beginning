@@ -14,7 +14,14 @@ int main()
 
     //students = students - 5;
     //students-=5;
-    students--;
+    //students--;
+    
+    //students = students * 5;
+    //students*=5;
+
+    //students = students / 5;
+    students/=5;
+
 
     std::cout << students;
 
