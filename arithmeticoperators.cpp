@@ -9,7 +9,12 @@ int main()
     //there is a shorter way to write this
     //students+=5;
     //if we only have to add 1 we can use the increament operator
-    students++; //++ is common in many loops
+    //students++; 
+    //++ is common in many loops
+
+    //students = students - 5;
+    //students-=5;
+    students--;
 
     std::cout << students;
 
