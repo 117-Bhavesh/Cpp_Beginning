@@ -10,7 +10,12 @@ int main()
     int age;
 
     std::cout << "what's your name?: ";
-    std::cin >> name;
+    //but te string variable doesn't take 'space' as input
+    //std::cin >> name;
+    //but this can be fixed by using getline
+    //if you need to accept any string that includes any spaces, use getline function
+    std::getline(std::cin, name);
+    
 
     std::cout << "What's your age?: ";
     std::cin >> age;
