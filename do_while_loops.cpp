@@ -29,7 +29,7 @@ int main(){
 
     //another way we could write this but is not the best way
 
-    int number;
+/*   int number;
     std::cout << "enter a positive #: ";
     std::cin >> number;
     while(number<0){
@@ -38,6 +38,15 @@ int main(){
     }
     std::cout << "the # is: " << number;
     //we are repeating two lines of code when we don't really need to
+*/   
+
+    //the better way to write this is:
+    int number;
+    do{
+        std::cout << "enter a positive #: ";
+        std::cin >> number;
+    }while(number<0);
+    std::cout << "the # is: " << number;
 
     return 0;
 }
