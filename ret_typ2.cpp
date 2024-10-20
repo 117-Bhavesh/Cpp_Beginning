@@ -17,3 +17,4 @@ int main(){
 std::string concatStrings(std::string nameInsignificant1, std::string nameInsignificant2){
     return nameInsignificant1 + " " + nameInsignificant2;
 }
+//just make sure that you change the return type of the fucntion to match the data type of that function
