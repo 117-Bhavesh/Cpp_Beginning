@@ -10,6 +10,10 @@ int main(){
     char computer;
 
     player = getUserChoice();
+    //after assigning the player variable lets display the user's choice
+    std::cout << "Your choice: ";
+    showChoice(player);
+
     return 0;
 }
 char getUserChoice(){
@@ -26,13 +30,21 @@ char getUserChoice(){
     } while (player != 'r' && player != 'p' && player != 's');
     
     
-    return 0;
+    return player;
 }
 char getComputerChoice(){
     return 0;
 }
 void showChoice(char choice){
-
+    
+    switch(choice){
+        case 'r': std::cout << "Rock\n";
+            break;
+        case 'p': std::cout << "Paper\n";
+            break;
+        case 's': std::cout << "Scissors\n";
+            break;
+    }
 }
 void chooseWinner(char player, char computer){
 
