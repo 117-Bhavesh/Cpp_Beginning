@@ -8,9 +8,9 @@ int main() {
     int age = 21;
     bool student = true;
 
-    std::cout << &name << '\n';
-    std::cout << &age << '\n';
-    std::cout << &student << '\n';
+    std::cout << &name << '\n'; //32bytes of
+    std::cout << &age << '\n'; //4bytes of memory
+    std::cout << &student << '\n'; //1byte of memory
     //these memory addresses are outputed in form of hexadecimals 
     //which on converting to decimals will give us the ability to 
     //see the difference among each decimal memory values
